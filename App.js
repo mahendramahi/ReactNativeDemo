@@ -20,6 +20,7 @@ import GridView from './src/component/GridView';
 import FetchExample from './src/component/FetchExample';
 import SeekBar from './src/component/SeekBar';
 import SwitchButton from './src/component/SwitchButton';
+import AsyncFun from './src/component/AsyncFun';
 
 
 export default class Project extends Component {
@@ -28,7 +29,7 @@ export default class Project extends Component {
   render() {
     return (
       //  Place one by one class name into render return function and enjoy your example
-     <SwitchButton />
+     <AsyncFun />
     );
   }
  
