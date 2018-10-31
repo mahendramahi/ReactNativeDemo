@@ -20,6 +20,19 @@ export default class AsyncFun extends Component {
     console.log('time:-' + new Date().toLocaleString());
  }
 
+ getPromise() {
+  return new Promise( (resolve, reject) => {
+    console.log('log:-' + JSON.stringify(resolve));
+    // resolve after 3 second timeout.
+    setTimeout(() => {
+      resolve({ key: new Date().getTime()});
+      console.log('value'+resolve.key);
+    }, 3000 );
+    console.log('log:-' + JSON.stringify(resolve));
+    console.log('finish');
+});
+ }
+
  render() {
    return (
  
