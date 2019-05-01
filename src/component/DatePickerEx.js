@@ -38,9 +38,7 @@ export default class DatePickerEx extends Component {
  
     //To open the dialog
     this.refs.DatePickerDialog.open({
- 
       date: DateHolder,
- 
     });
  
   }
