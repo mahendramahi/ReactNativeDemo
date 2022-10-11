@@ -10,7 +10,7 @@
     "moment": "^2.22.2",
     "react": "16.6.0-alpha.8af6728",
     "react-moment": "^0.8.2",
-    "react-native": "0.57.4",
+    "react-native": "0.70.2",
     "react-native-datepicker-dialog": "0.0.9",
     "react-native-dropdown": "0.0.6",
     "react-native-elements": "^1.0.0-beta7",
